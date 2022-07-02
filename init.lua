@@ -340,12 +340,10 @@ minetest.register_craft({
 
 -- make default mushrooms drop our newly registered ones, so the defaults only remain for mapgen purposes
 minetest.override_item("flowers:mushroom_brown", {
-	drop = {"pilzmod:mushroom_brown"},
+	drop = "pilzmod:mushroom_brown",
     groups = {mushroom = 1, snappy = 3, attached_node = 1, flammable = 1, not_in_creative_inventory = 1}
 })
 minetest.override_item("flowers:mushroom_red", {
-	drop = {"pilzmod:mushroom_red"},
+	drop = "pilzmod:mushroom_red",
     groups = {mushroom = 1, snappy = 3, attached_node = 1, flammable = 1, not_in_creative_inventory = 1}
 })
-
-
