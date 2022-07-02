@@ -159,7 +159,6 @@ end
 
 -- mushroom stem boss
 
-dofile(minetest.get_modpath("pilzmod").."/monsters_boss_on_hit.lua")
 
 for _, color in ipairs({"brown", "red"}) do
 	mobs:register_mob('pilzmod:boss_' .. color, {
@@ -198,12 +197,7 @@ for _, color in ipairs({"brown", "red"}) do
 		attack_type = 'shoot',
 		shoot_interval = 2,
 		arrow = 'pilzmod:boss_projectile_' .. color,
-		-- dogshoot_switch = 1,			-- Switch to dogfight after shooting
-		-- dogshoot_count_max = 3,			-- 3secs for shooting
-		-- dogshoot_count2_max = 2,		-- 2secs for melee attacking
 		pathfinding = 1,
-		-- shoot_interval = 1.5,
-		-- shoot_offset = 1.5,
 		makes_footstep_sound = false,
 		drops = {
 			{name = "pilzmod:boss_projectile_decoblock_" .. color, chance = 1, min = 1, max = 1},
