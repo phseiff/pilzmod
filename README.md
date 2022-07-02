@@ -1,5 +1,4 @@
 # pilzmod
-## ~ manual ~
 
 pilzmod is a minetest mod that adds a spreading spawnable mushroom biome into the game, overgrown with myzelium and filled with giant versions of the mushroom we all know from minetest game, their smaller cousins, and eight new types of small mushroom, as well as monsters and a boss.
 
