@@ -1,5 +1,5 @@
 default
-flowers?
+flowers
 mobs
 tnt
 dye?
