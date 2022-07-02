@@ -93,14 +93,8 @@ local textures
 		attack_npcs = true,
 		attack_players = true,
 		group_attack = true,
-		attack_type = 'dogfight', 		-- If in view range, shoot glue, then melee
-		-- arrow = 'mobs_mime:glue_arrow',	-- Glue shot
-		-- dogshoot_switch = 1,			-- Switch to dogfight after shooting
-		-- dogshoot_count_max = 3,			-- 3secs for shooting
-		-- dogshoot_count2_max = 2,		-- 2secs for melee attacking
+		attack_type = 'dogfight',
 		pathfinding = 1,
-		-- shoot_interval = 1.5,
-		-- shoot_offset = 1.5,
 		makes_footstep_sound = false,
 		drops = {
 			{name = 'pilzmod:giant_mushroom_' .. color, chance = 1, min = 1, max = 1},
