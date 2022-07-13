@@ -322,7 +322,7 @@ for _, color in ipairs({"brown", "red"}) do
 				vel = vector.multiply(vector.round(vector.subtract(pos, player_pos)), 1)
 			-- move downwars if home pos if it is too far beneath you
 			elseif pos.y - self.home_pos.y > 50 then
-				vel = {0, -1, 0}
+				vel = {x=0, y=-1, z=0}
 			-- don't manually set direction if we are already meleeing
 			elseif self.attack_type == "dogfight" then
 				--
